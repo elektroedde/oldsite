@@ -54,7 +54,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #fff;
+  color: #c6a929;
 }
 
 /* Hero Section */
@@ -63,7 +63,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle at center, #1f1f22, #0e0e10);
+  background: radial-gradient(circle at center, #746e06, #000000);
   text-align: center;
   padding: 2rem;
 }
@@ -83,6 +83,7 @@ body {
   padding: 5rem 2rem;
   background: #1c1c1f;
   text-align: center;
+  height: 40vh;
 }
 
 .section.projects h2 {
@@ -93,4 +94,27 @@ body {
 .section.projects p {
   font-size: 1.2rem;
   color: #aaa;
+}
+
+.test {
+  width: 250px;
+  height: 100px;
+  border-radius: 30px;
+  border-color:#ffffff;
+  border-width: 3px;
+  background-color: rgb(149, 140, 23);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  float:left;
+  border-style: solid;
+
+}
+
+/* Contact */
+.contact {
+  padding: 5rem 2rem;
+  background: #13137a;
+  text-align: center;
 }
